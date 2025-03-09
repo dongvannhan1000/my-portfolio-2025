@@ -8,7 +8,7 @@ export const experiences = [
   {
     id: 2,
     title: 'Part-time Staff',
-    company: "IRN VN ",
+    company: "ITR VN ",
     duration: "(Jan 2025 - Feb 2025)"
   },
   {

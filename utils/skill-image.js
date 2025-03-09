@@ -81,6 +81,11 @@ import kubernetes from '../app/assets/svg/skills/kubernetes.svg'
 import linux from '../app/assets/svg/skills/linux.svg'
 import sqlalchemy from '../app/assets/svg/skills/sqlalchemy.svg'
 import fastapi from '../app/assets/svg/skills/fastapi.svg'
+import prisma from '../app/assets/svg/skills/prisma.svg'
+import jest from '../app/assets/svg/skills/jest.svg'
+import express from '../app/assets/svg/skills/express.svg'
+import nodejs from '../app/assets/svg/skills/nodejs.svg'
+
 
 
 
@@ -251,6 +256,14 @@ export const skillsImage = (skill) => {
       return sqlalchemy;
     case 'fastapi':
       return fastapi;
+    case 'prisma':
+      return prisma;
+    case 'jest':
+      return jest;
+    case 'express.js':
+      return express;
+    case 'node.js':
+      return nodejs;
     default:
       break;
   }

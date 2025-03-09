@@ -1,8 +1,9 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
+    title: "Bachelor of Engeneering",
     duration: "2018 - 2023",
+    major: "Electronics and Telecommunications Engineering",
     institution: "Ho Chi Minh City University of Technology",
   },
   // {
