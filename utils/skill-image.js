@@ -85,6 +85,8 @@ import prisma from '../app/assets/svg/skills/prisma.svg'
 import jest from '../app/assets/svg/skills/jest.svg'
 import express from '../app/assets/svg/skills/express.svg'
 import nodejs from '../app/assets/svg/skills/nodejs.svg'
+import restfulapi from '../app/assets/svg/skills/restfulapi.svg'
+import postman from '../app/assets/svg/skills/postman.svg'
 
 
 
@@ -264,6 +266,10 @@ export const skillsImage = (skill) => {
       return express;
     case 'node.js':
       return nodejs;
+    case 'restfulapi':
+      return restfulapi;
+    case 'postman':
+      return postman;
     default:
       break;
   }
