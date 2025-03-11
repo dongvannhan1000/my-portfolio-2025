@@ -13,6 +13,15 @@ export const metadata = {
   title: "Portfolio of Nhan Dong - Web Developer",
   description:
     "This is the portfolio of Nhan Dong. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
+  icons: {
+    icon: [
+      {
+        url: '/favicon.ico',
+        sizes: 'any',
+        type: 'image/x-icon',
+      },
+    ],
+  },
 };
 
 export default function RootLayout({ children }) {
