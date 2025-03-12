@@ -5,8 +5,8 @@ export const projectsData = [
         description: "A full-stack chat application that enables real-time messaging using Socket.IO and secure JWT-based authentication. It leverages React-Zustand for state management on the frontend and uses Node.js with Prisma to interact with a PostgreSQL database. This project was developed to apply my newly acquired full-stack skills, particularly in real-time communication, API development, and database management.",
         tools: ['React', 'Zustand', 'Node.js', 'Prisma', 'PostgreSQL', 'Socket.IO', 'JWT', 'Git', 'Postman'],
         role: 'Full-stack Developer',
-        code: '',
-        demo: '',
+        code: 'https://github.com/dongvannhan1000/EchoChat',
+        demo: 'https://echochat-08uj.onrender.com/',
     },
     {
         id: 2,
